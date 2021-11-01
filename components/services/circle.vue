@@ -9,7 +9,12 @@
 <script>
 export default {
     name: 'AppCircle',
-    props:['title']
+    props:{
+        title:{
+            type: String,
+            default:''
+        }
+    }
 }
 </script>
 

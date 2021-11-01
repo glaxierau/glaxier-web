@@ -4,7 +4,7 @@
             <img src="~/assets/img/home/aboutimg.png" width="500" alt="image">
         </div>
         <div class="lg:w-1/2 w-full lg:mt-0 mt-20 flex flex-col items-center justify-center lg:py-20 py-5">
-            <Title title="Who is Glaxier?" lineColor="#CFD7F1"/> <br> <br>
+            <Title title="Who is Glaxier?" line-color="#CFD7F1"/> <br> <br>
             <div class="relative list_container flex justify-between">
                 <div class="line bg-red-dark"/>
                 <check-icon label="Passionate" />
@@ -19,20 +19,18 @@
                     Our Brand, Glaxier came from the word glacier. It’s a metaphor for an iceberg which may seem small above the water but is much biggest under water. Digital marketing effort may not be apparent but it is a crucial part of the succeess of many bussinesses no matter the size. In a way, our team act as the under-water part of a glacier for you business, laying groud work for the sucess everyone appreciate.
                 </p>
             </div> <br>
-                <AppButton title="VIEW MORE" width="lg:w-56 w-32" color="bg-blue" hoverColor="bg-red" txtColor="text-white" />
+                <AppButton title="VIEW MORE" width="lg:w-56 w-32" color="bg-blue" hover-color="bg-red" txt-color="text-white" />
         </div>
     </div>
 </template>
 
 <script>
-import CurvyLine from '../lines/curvyline.vue'
 import CheckIcon from '../icons/checkIcon.vue'
 import AppButton from '../button/appButton.vue'
 import Title from '../title/title.vue'
 export default {
     name: 'AboutSection',
     components: {
-        CurvyLine,
         CheckIcon,
         AppButton,
         Title

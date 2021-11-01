@@ -7,8 +7,8 @@
             <h3 class="text-white lg:text-2xl text-xl font-bolder mb-3 text_top">HEY! WE ARE</h3>
             <h1 class="glaxier_txt text-white lg:text-7xl text-5xl font-thin lg:mb-0 mb-8 ">Glaxier!</h1>
             <div class="flex">
-                <AppButton title="GET IN TOUCH" width="w-44" color="bg-blue" hoverColor="bg-red" txtColor="text-white" />
-                <AppButton title="READ MORE" width="w-36" color="bg-white" hoverColor="bg-red" txtColor="text-blue" txtHover="text-white" />
+                <AppButton title="GET IN TOUCH" width="w-44" color="bg-blue" hover-color="bg-red" txt-color="text-white" />
+                <AppButton title="READ MORE" width="w-36" color="bg-white" hover-color="bg-red" txt-color="text-blue" txt-hover="text-white" />
             </div>
         </div>
         <div class="absolute bottom-0 w-screen">

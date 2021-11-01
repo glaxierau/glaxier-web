@@ -13,7 +13,7 @@
             <AppCircle :style="isMobile?'bottom:8rem; left: 5%':'bottom:2rem; left: 14%'" title="Social Media Management" />
             <AppCircle :style="isMobile?'bottom:5rem; right: 5%':'bottom:2rem; right: 20%'" title="Website Development" />
             <div class="position top-0 left-1/2 z-20 flex items-center justify-center flex-col mt-6">
-                <Title title="Our Services" lineColor="#fff"/> <br>
+                <Title title="Our Services" line-color="#fff" :line-width="200"/> <br>
                 <h3 class="font-extrabold lg:text-lg text-base">We can do these awesome things</h3> <br>
                 <p class="lg:w-96 w-72 text-xs text-white font-thin leading-5">Our team has a collaborative and hollistic view of the digital landscape. Our services range from the fundamental assets such as a website, brochures, logo, to your outreach strategy to attract your perfect target customers.</p>
             </div>
@@ -24,15 +24,13 @@
 <script>
 import AppCircle from './circle.vue'
 import Particles from './particles.vue'
-import CurvyLine from '../lines/curvyline.vue'
 import {store} from '~/store/store.js'
 export default {
+    name: 'ServicesSection',
     components: {
         AppCircle,
         Particles,
-        CurvyLine
     },
-    name: 'ServicesSection',
     computed: {
         isMobile(){
             return store.isMobile

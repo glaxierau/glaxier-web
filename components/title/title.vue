@@ -9,10 +9,22 @@
 import CurvyLine from '../lines/curvyline.vue'
 export default {
     name: 'Title',
-    props: ['title', 'lineColor', 'lineWidth'],
     components: {
         CurvyLine
-    }
+    },
+    props: {
+        title: {
+            type: String,
+            default:''
+        }, 
+        lineColor: {
+            type: String,
+            default: '#fff'
+        },
+        lineWidth: {
+            type: Number,
+            default: 0
+        }},
 }
 </script>
 

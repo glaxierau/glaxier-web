@@ -3,7 +3,7 @@
         <img src="~/assets/img/home/largeimg.png" class="bg_image" alt="bg-image">
         <div class="absolute lg:top-24 top-12 z-10 flex flex-col items-center justify-center">
             <h3 class="lg:text-2xl text-xl text-white font-bold lg:mb-12 mb-2">Let’s talk about “OUR” project.</h3>
-            <AppButton :customed="true" title="GET STARTED" width="w-52" color="transparent" hoverColor="bg-white" txtColor="text-white" txtHover="text-blue-dark" />
+            <AppButton :customed="true" title="GET STARTED" width="w-52" color="transparent" hover-color="bg-white" txt-color="text-white" txt-hover="text-blue-dark" />
         </div>
     </div>
 </template>
